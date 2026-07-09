@@ -9,6 +9,8 @@ st.title("🏠 House Price Prediction")
 
 st.write("Enter house details")
 
+import joblib
+
 area = st.number_input("Area (sq ft)", 500, 10000)
 bedrooms = st.number_input("Bedrooms", 1, 10)
 bathrooms = st.number_input("Bathrooms", 1, 10)
